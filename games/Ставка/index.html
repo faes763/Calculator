@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+    <a class='site'href="../../index.html"><img src="../../img/back-page.svg"></a>
+	<div class="boss">
+		<div class="road"><img src="img/car1.svg" class="car1"></div>
+		<div class="road"><img src="img/car2.svg" class="car2"></div>
+	</div>
+	<div class="info">
+		<h1>Твой счёт: <span class="score"></span></h1>
+		<h2>Твоя ставка:<span class="bet"></span></h2>
+		<button class="minus">-10</button>
+		<button class="plus">+10</button>
+		<h2>Кто победит?</h2>
+		<button class="black" onclick="properlyWinner('black')"><img src="img/car2.svg"></button>
+		<button class="white" onclick="properlyWinner('white')"><img src="img/car1.svg"></button>
+	</div>
+	<script type="text/javascript" src="js.js"></script>
+</body>
+</html>

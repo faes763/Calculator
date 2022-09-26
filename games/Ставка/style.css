@@ -1,0 +1,50 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	background-color: #121212;
+	color: white;
+}
+.boss  {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	text-align: left;
+	align-items: center;
+}
+.car1, .car2 {
+	width: 90px;
+}
+.road {
+	border: 1px solid black;
+	width: 90%;
+	height: 100px;
+	background-color: rgba(255,255,255);
+	background-image: url(img/finish.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+.site {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	transform: rotate(180deg);
+	z-index: 1;
+}
+.info img {
+	width: 100px;
+}
+.white, .black {
+	padding: 20px;
+	border-radius: 100%;
+	cursor: pointer;
+	outline: none;
+}
+.white:hover, .black:hover {
+	background-color: rgba(255,255,255,0.7);
+}
+.plus, .minus {
+	padding: 10px 20px;
+	outline: none;
+	cursor: pointer;
+}

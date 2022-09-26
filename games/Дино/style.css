@@ -1,0 +1,40 @@
+body {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#game {
+    transform: scale(2.5);
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+div {
+    display: inline-block;
+    position: relative;
+}
+button {
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    padding: 15px 20px;
+    border-radius: 35px;
+    border: 2px solid orange;
+    background-color: yellow;
+    /* color: #fff; */
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.site {
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+    top: 15px;
+}

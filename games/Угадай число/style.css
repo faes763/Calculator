@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	text-align: center;
+	background: linear-gradient(45deg, #Ef21, #51A6, #EF87);
+	height: 100vh;
+}
+h1 {
+	font-weight: normal;
+	color: white;
+}
+p {
+	font-size: 20px;
+	color: white;
+	margin: 0;
+}
+button {
+	width: 40px;
+	height: 40px;
+	color: white;
+	margin: 5px;
+	background-color: rgb(111, 127, 223);
+	border: none;
+	outline: none;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+button:hover {
+	background-color: red;
+}
+.main {
+	background-color: rgb(77, 93, 189);
+	width: 20%;
+	margin: 10% auto;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.main-content {
+	padding: 8%;
+}
+.newGame {
+	width: 90%;
+}
+.attempts {
+	background-color: rgb(60, 76, 172);
+	padding: 5%;
+}
+.hints {
+	background-color: rgb(43, 59, 155);
+	padding: 5% 0;
+	border-bottom-right-radius: 20px;
+	width: 100%;
+}
+.site {
+	position: absolute;
+	top: 15px;
+    left: 15px;
+	transform: rotate(180deg);
+	z-index: 1;
+}
