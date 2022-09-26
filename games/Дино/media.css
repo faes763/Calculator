@@ -1,0 +1,10 @@
+@media (max-width:1600px) {
+    #game {
+        transform: scale(2.1);
+    }   
+}
+@media (max-width:1400px) {
+    #game {
+        transform: scale(1.8);
+    }   
+}

@@ -32,7 +32,10 @@ minus.onclick = () => {
 		document.querySelector('.bet').innerHTML = bet;
 	}
 }
+
 let properlyWinner = (color)=> {
+	document.querySelector('.white').disabled = true;
+	document.querySelector('.black').disabled = true;
 	winner = false;
 	speedCar(car1, "white");
 	speedCar(car2, "black");
@@ -41,6 +44,7 @@ let properlyWinner = (color)=> {
 	document.querySelector('.score').innerHTML = score;
 }
 let speedCar = (car, color)=> {
+	
 	let margin = 0;
 	let interval = setInterval(()=>{
 		let speed = Math.random()*0.1;
@@ -62,33 +66,8 @@ let speedCar = (car, color)=> {
 		}
 		if (winner == true) {
 			clearInterval(interval);
+			document.querySelector('.white').disabled = false;
+			document.querySelector('.black').disabled = false;
 		}
 }, 5);
 }
-// let af = properlyWinner();
-
-// let a = "53";
-// let b = "51";
-
-// function abv() {
-// 	let v = a+b;
-// 	console.log(v)
-// 	return v;
-
-// }
-
-// abv()
-// const abfv = function() {
-// 	let v = a+b;
-// 	console.log(v)
-// 	return v;
-// }
-// abfv();
-// const avfa = ()=> {
-// 	let v = a+b;
-// 	console.log(v)
-// 	return v;
-// }
-// avfa();
-// let g = avfa();
-// console.log(g);

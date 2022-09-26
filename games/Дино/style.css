@@ -7,7 +7,7 @@ body {
     overflow: hidden;
 }
 #game {
-    transform: scale(2);
+    transform: scale(2.5);
 }
 .box {
     display: flex;
